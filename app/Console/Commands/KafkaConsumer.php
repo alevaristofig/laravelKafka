@@ -31,7 +31,7 @@ class KafkaConsumer extends Command
      */
     public function handle()
     {
-        $consumer = Kafka::consumer(['usuarios','pacientes'])
+        $consumer = Kafka::consumer(['usuarios','pacientes','medicamentos','aplicacao'])
             ->withBrokers('localhost:9092')
             ->withAutoCommit()
             ->withHandler(function(ConsumerMessage $message, MessageConsumer $consumer) {               
