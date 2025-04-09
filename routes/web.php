@@ -10,13 +10,4 @@ Route::get('/', function () {
 /*Route::get('/token', function () {
     return csrf_token(); 
 });
-
-Route::get('/',[ConsumerController::class,'index']);
-
-Route::get('/{id}',[ConsumerController::class,'buscar']);
-
-Route::delete('/{id}',[ConsumerController::class,'deletar']);
-
-Route::post('/consumer',[ConsumerController::class,'consumirMensagemUsuario']);
-
-Route::put('/{id}',[ConsumerController::class,'atualizar']);*/
+*/
